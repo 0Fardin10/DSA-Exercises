@@ -37,9 +37,9 @@ int main() {
     int result = binarySearch(arr, size, target);
 
     if (result != -1)
-        printf("\n✔ Element %d found at index %d\n", target, result);
+        printf("\n Element %d found at index %d\n", target, result);
     else
-        printf("\n✘ Element %d not found in the array\n", target);
+        printf("\n Element %d not found in the array\n", target);
 
     return 0;
 }
